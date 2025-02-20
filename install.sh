@@ -29,7 +29,7 @@ fi
 
 # Install the required Python package (pypdf)
 echo "Installing pypdf..."
-pip3 install pypdf
+apt install python3-pypdf
 
 # URL of the partdf.py script in your GitHub repository
 REPO_URL="https://raw.githubusercontent.com/Big0x44/PartDF/refs/heads/main/partdf.py"
